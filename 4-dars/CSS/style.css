@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+/* navbar */
+.navbar{
+  width: 100%;
+  min-height: 40px;
+}
+.navbar__content, .header__content{
+  width: 1140px;
+  padding: 0 15px;
+  min-height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__content-img{
+  width: 150px;
+}
+.navbar__content-img img{
+  width: 150px;
+  height: 46px;
+}
+.navbar__content-img h4{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.navbar__content-links{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar__content-links li{
+  list-style: none;
+}
+.navbar__content-links a{
+  text-decoration: none;
+  color: #3A3838;
+  font-size: 18px;
+  font-weight: 700;
+}
+.navbar__content-links a:hover{
+  color: #EF4423;
+}
+/* navbar end */
+
+/* header */
+.header__content img{
+  width: 100%;
+}
+/* header end */
+
+/* news */
+.news{
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+.news-card{
+  width: 350px;
+  height: 380px;
+}
+.news-card img{
+  width: 100%;
+  display: flex;
+}
+.bg-red{
+  background: #B71C1C;
+}
+.bg-violet{
+  background: #6A1B9A;
+}
+.bg-blue{
+  background: #303F9F;
+}
+.bg-green{
+  background: #00695C;
+}
+.news__card-text{
+  padding: 8px 15px 15px 15px;
+}
+.news__card-text h4{
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.news__card-text p{
+  color: #EBEBEB;
+  font-size: 16px;
+  line-height: normal;
+}
+/* news end */
+
+/* info */
+.info-title{
+  text-align: center;
+  margin: 40px 0;
+  color: #3A3838;
+  font-size: 22px;
+  font-weight: 700;
+}
+.info_content-img img{
+  width: 540px;
+  height: 531px;
+}
+.info_content{
+  background: #EDEDED;
+  margin-bottom: 50px;
+}
+.info_content-in{
+  width: 1140px;
+  margin: 0 auto;
+  gap: 50px;
+  padding: 0px 15px;
+  display: flex;
+}
+.info_content-text{
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.info_content-text h3{
+  font-size: 25px;
+}
+/* info end */
+
+/* footer */
+.footer{
+  background: #3A3838;
+  min-height: 40px;
+  margin-bottom: 300px;
+  padding: 28px 0 29px;
+}
+
+.footer .navbar__content-links a, .footer .navbar__content-img h4{
+    color: white;
+}
+
+.footer .navbar__content-links a:hover{
+  color: #EF4423;
+  
+}
+/* footer end */
